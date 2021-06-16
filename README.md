@@ -8,9 +8,17 @@ To install on Arch:
 
 ```(sudo) pacman -S sfml```
 
+OR
+
+```(sudo) make arch-dependencies```
+
 On Ubuntu/Debian:
 
 ```(sudo) apt install libsfml-dev```
+
+OR
+
+```(sudo) make deb-dependencies```
 
 # Building
 Clone the repo into any directory:

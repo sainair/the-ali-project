@@ -18,4 +18,10 @@ main: $(obj)
 runC:
 	./$(target)
 
+arch-dependencies:
+	pacman -S sfml
+
+deb-dependencies:
+	apt install libsfml-dev
+
 all: mainobj main runC
