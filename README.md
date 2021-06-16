@@ -35,4 +35,4 @@ Then start the building process:
 
 Then run the app by opening it from src/bin:
 
-```./src/bin/ali```
+```make runC```
